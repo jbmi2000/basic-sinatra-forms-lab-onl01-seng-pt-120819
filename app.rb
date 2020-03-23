@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    @team = params[:team_name]
+    @team = params[:name]
     @coach = params[:coach]
     @pguard = params[:point_guard]
     @sguard = params[:shooting_guard]
