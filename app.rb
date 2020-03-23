@@ -13,7 +13,7 @@ class App < Sinatra::Base
     @sguard = params[:sg]
     @sforward = params[:sf]
     @pforward = params[:pf]
-    @center= params[:center]
+    @center= params[:c]
     # binding.pry
     erb :team
 
