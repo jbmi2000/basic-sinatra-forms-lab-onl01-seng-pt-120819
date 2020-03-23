@@ -11,7 +11,7 @@ class App < Sinatra::Base
     @coach = params[:coach]
     @pguard = params[:pg]
     @sguard = params[:sg]
-    @sforward = params[:small_forward]
+    @sforward = params[:sf]
     @pforward = params[:power_forward]
     @center= params[:center]
     # binding.pry
